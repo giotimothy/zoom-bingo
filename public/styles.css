@@ -1,0 +1,106 @@
+/*
+This is the .css file for my zoomingo website. It styles my zoomingo website,
+giving it a consistent and an interesting look. This file also controls the
+layout of each components described in my .html file.
+*/
+
+h1 {
+  font-weight: bold;
+  font-size: 35pt;
+}
+
+h1, #response-box {
+  text-align: center;
+}
+
+main, #menu, #board {
+  display: flex;
+}
+
+main, #menu {
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu, #response-box {
+  width: 80%;
+  margin: auto;
+}
+
+label {
+  font-size: 15pt;
+}
+
+button, select {
+  background-color: white;
+  padding: 8px;
+  border: 2pt solid black;
+}
+
+#menu {
+  background-color: lightblue;
+  border: 3pt solid black;
+  padding: 20px;
+}
+
+#menu, #board {
+  border-radius: 0.35em;
+}
+
+#message {
+  color: greenyellow;
+}
+
+#error {
+  color: red;
+}
+
+#response-box {
+  font-size: 20pt;
+}
+
+#bingo {
+  background-color: cornflowerblue;
+  font-size: 25pt;
+}
+
+#board {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: lightsalmon;
+  border: 3pt dashed black;
+  padding: 5px;
+  width: 90%;
+  margin: auto;
+}
+
+.three {
+  width: 28%;
+}
+
+.five {
+  width: 16%;
+}
+
+.seven {
+  width: 11.15%;
+}
+
+.nine {
+  width: 8.675%;
+}
+
+.square {
+  margin: 6px;
+  padding: 4px;
+  border: 1pt solid darkblue;
+}
+
+.selected {
+  background-color: mediumspringgreen;
+}
+
+.scenario {
+  text-align: center;
+}

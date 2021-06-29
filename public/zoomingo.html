@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+  This is my html file for my zoom bingo site. It contains and holds the
+  structure of all the contents of my zoomingo site. Every single components
+  of the page is structured in this file.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zoom Bingo!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="zoomingo.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>!! ZOOM BINGO !!</h1>
+  </header>
+  <main>
+    <article id="menu">
+      <section>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+      </section>
+      <br>
+      <section>
+        <label for="size-select">Board Size: </label>
+        <select id="size-select">
+          <option value="0">--PLEASE SELECT A BOARD SIZE--</option>
+          <option value="9">3x3</option>
+          <option value="25">5x5</option>
+          <option value="49">7x7</option>
+          <option value="81">9x9</option>
+        </select>
+      </section>
+      <br>
+      <section id="buttons">
+        <button id="new-game">NEW GAME</button>
+        <button id="reset">RESET</button>
+        <button id="resume">RESUME GAME?</button>
+      </section>
+    </article>
+    <br>
+    <article id="response-box">
+      <p id="message"></p>
+      <p id="error"></p>
+    </article>
+    <div id="board">
+    </div>
+    <br>
+    <button id="bingo">BINGO!</button>
+  </main>
+</body>
+
+</html>

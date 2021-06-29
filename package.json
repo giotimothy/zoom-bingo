@@ -1,0 +1,21 @@
+{
+  "name": "fp-zoomingo-gts910",
+  "version": "1.0.0",
+  "description": "_Special thanks to Andrew Fitz Gibbon for this assignment._",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cs.washington.edu:cse154-20au-students/fp-zoomingo-gts910.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "sqlite": "^4.0.18",
+    "sqlite3": "^5.0.0"
+  }
+}
